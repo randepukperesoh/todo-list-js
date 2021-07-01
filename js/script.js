@@ -1,8 +1,7 @@
 const addMessage = document.querySelector('.inp_task');
 const addButton = document.querySelector('.add');
 const todo = document.querySelector('.todo');
-const deadL = document.querySelector('.inp_dead');
-let todoList = [];
+const todoList = [];
 
 function displayMessages() {
   let displayMessage = '';
@@ -27,5 +26,5 @@ addButton.addEventListener('click', () => {
   todoList.push(newTodo);
   displayMessages();
   addMessage.value = '';
-  deadL.value = '';
+  console.log(1);
 });

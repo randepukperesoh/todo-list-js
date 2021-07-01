@@ -26,5 +26,4 @@ addButton.addEventListener('click', () => {
   todoList.push(newTodo);
   displayMessages();
   addMessage.value = '';
-  console.log(1);
 });
